@@ -1,0 +1,27 @@
+{
+  "name": "202210-w1ch6-alvaro-marcos",
+  "version": "1.0.0",
+  "description": "challenger weekend 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass:css --watch",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosbonet/202210-W1CH6-ALVARO-MARCOS.git"
+  },
+  "author": "alvaro marcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosbonet/202210-W1CH6-ALVARO-MARCOS/issues"
+  },
+  "homepage": "https://github.com/marcosbonet/202210-W1CH6-ALVARO-MARCOS#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "husky": "^8.0.1",
+    "sass": "^1.55.0"
+  }
+}
