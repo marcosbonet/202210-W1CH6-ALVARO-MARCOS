@@ -1,4 +1,6 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *,
 *::after,
 *::before {
@@ -8,9 +10,13 @@
 
 html,
 body {
+
+  font-family: "Poppins";
+
   padding-top: 34px;
   min-height: 100vh;
 }
+
 
 .main-container {
   font-family: "Poppins";
@@ -49,6 +55,46 @@ body {
   color: white;
   border: none;
   cursor: pointer;
+
+header {
+  height: 81px;
+  width: 481px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 5%;
+  border-bottom: #BCA4FF 0.5px solid;
+  align-items: center;
+  padding: 15px;
+}
+header .header__tittle {
+  width: 0px;
+}
+header .header__logo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 55px;
+  left: 45px;
+  top: 34px;
+}
+header .header-burguer {
+  height: 18px;
+  width: 28px;
+  flex-direction: column;
+}
+header .header-burguer .header__burguer {
+  background-color: #5f2eea;
+  height: 4px;
+  width: 28px;
+  margin: 3px;
+  border-radius: 2px;
+}
+
+section {
+  height: 385px;
+
 }
 
 /*# sourceMappingURL=sass.css.map */
