@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Splash&display=swap");
 *,
 *::after,
 *::before {
@@ -7,7 +8,49 @@
 
 html,
 body {
+  font-family: "Poppins";
+  padding-top: 34px;
   min-height: 100vh;
+}
+
+header {
+  height: 81px;
+  width: 481px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 5%;
+  border-bottom: #BCA4FF 0.5px solid;
+  align-items: center;
+  padding: 15px;
+}
+header .header__tittle {
+  width: 0px;
+}
+header .header__logo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 55px;
+  left: 45px;
+  top: 34px;
+}
+header .header-burguer {
+  height: 18px;
+  width: 28px;
+  flex-direction: column;
+}
+header .header-burguer .header__burguer {
+  background-color: #5f2eea;
+  height: 4px;
+  width: 28px;
+  margin: 3px;
+  border-radius: 2px;
+}
+
+section {
+  height: 385px;
 }
 
 /*# sourceMappingURL=sass.css.map */
