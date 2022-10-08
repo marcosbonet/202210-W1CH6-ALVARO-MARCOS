@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html,
+body {
+    padding-top: 34px;
+    min-height: 100vh;
+}
+
+header {
+    height: 81px;
+}
+
+section {
+    height: 385px;
+}
